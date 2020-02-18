@@ -7,26 +7,46 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <script src="./main.js"></script>
-      <div id="calc">
-        <i>Calculadora de Freelancer da He4rtDevs  </i>
-      <div id="row1">
-        Valor Total do Projeto: <input type="text" id="valorTotal" name="valorTotal"><br>
-        Quantidade de horas trabalhadas(por dia): <input type="text" id="horas" name="horas"><br>
-      </div>
-      <div id="row2">
-        Dias Efetivos trabalhados na semana: <input type="text" id="diasE" name="diasE"><br><br>
-        Dias de Férias Pelo Projeto:<input type="text" id="diasF"  name="diasF"><br><br>
-      </div>
-          
-        
-          <input id="button" type="button" value="Calcular" onclick="calculate()"> 
-        
-      </div>
-    <div id="resultado">
-      <p id="result">
+   
+        <nav>
+          <img src="./assets/he4rtlogo.png" height="80px" width="100px"/>
+          <div id="links">
+            <a href="https://heartdevs.com/"  target="_blank">Comunidade</a>
+            <a href="sobre.html"  >Sobre</a>
+            <a href="index.html"  >Calculadora</a>
+
+          </div>
+         
+        </nav>
       
-    </div>
-    
+      <div id="main">
+        <div id="calc">
+          <i>Calculadora de Freelancer da He4rtDevs  </i>
+        <div id="row1">
+          Valor Total do Projeto: <input type="text" id="valorTotal" name="valorTotal"><br>
+          Quantidade de horas trabalhadas(por dia): <input type="text" id="horas" name="horas"><br>
+        </div>
+        <div id="row2">
+          Dias Efetivos trabalhados na semana: <input type="text" id="diasE" name="diasE"><br><br>
+          Dias de Férias Pelo Projeto:<input type="text" id="diasF"  name="diasF"><br><br>
+        </div>
+            
+          
+            <input id="button" type="button" value="Calcular" onclick="calculate()"> 
+          
+        </div>
+        <div id="resultado">
+          <p id="result">
+        
+        </div>
+      </div>
+      <div id="sobre">
+        <p>
+          Agora vamos entender um pouco mais sobre esses fatores começando pelo fator _tempo diário_ investido. Quando tratamos de freelances, há uma certa demanda do seu tempo em off. Ou seja: depois do trabalho, escola ou aquele tempinho vago no final do dia que você usa pra relaxar e descontrair.
+   Esse tempo é algo muito valioso para qualquer pessoa, certo? Então claramente temos que levar esse fator em consideração.
+        </p>
+      </div>
+      
+    <script src="./main.js"></script>
   </body>
 </html>

@@ -1,23 +1,25 @@
 *{
-    padding:0;
-    margin-left: 0;
-    margin-right: 0px;
+    margin-top: 0px;
     background-color: indigo;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #calc {
+
     position: relative;
     z-index: 1;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     align-items: center;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 900px;
     background-color:white;
     color: grey;
     border-style: solid;
+    margin-top: 20px;
     
 }
 #row1{
@@ -40,8 +42,6 @@
     margin-bottom: 10px;
     background-color:white;
     color: grey;
-
-
 }
 #row2{
     display: inline-flex;
@@ -53,10 +53,11 @@ i{
     text-align: center;
     font-size: 1.6em;
     font-family: Maven Pro;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
     background-color:white;
+    color: black;
     
 }
 #resultado{
@@ -69,7 +70,7 @@ i{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 900px;
     background-color:white;
     color: grey;
     border-style: solid;
@@ -79,5 +80,66 @@ i{
 #result{
     background-color:white;
 }
+#navi{
+    background-color: white;
+}
 
+img,a,nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+nav{
+    
+    align-content: center;
+    height: auto;
+    justify-content: start;
+    margin-top: 0px;
+}
+a{
+   text-decoration: none;
+   margin-left: 50px;
+    
+}
+img{
+    margin-left: 150px;
+}
+#links{
+    margin-inline: 20%;
+    background-color: white;
+    display: inline-flex;
+}
 
+#main{
+    display: block;
+}
+
+#sobre{
+    display: none;
+}
+
+#textAbout {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    background-color:white;
+    color: grey;
+    border-style: solid;
+    margin-top: 10px;
+
+}
+
+ol, li, p,h2{
+    background-color: white;
+}
+li,h2{
+    font-weight:bold ;
+    color: black;
+}
