@@ -1,14 +1,14 @@
-*{
+* {
     margin-top: 0px;
     background-color: indigo;
     margin-left: 0px;
     margin-right: 0px;
 }
-#calc {
 
+#calc {
     position: relative;
     z-index: 1;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 15px;
@@ -16,41 +16,44 @@
     margin-right: auto;
     margin-left: auto;
     width: 900px;
-    background-color:white;
+    background-color: white;
     color: grey;
     border-style: solid;
     margin-top: 20px;
-   
-    
 }
-#row1{
+
+#row1 {
     display: inline-flex;
     padding-bottom: 3%;
-    background-color:white;
+    background-color: white;
 }
-#valorTotal, #horas,#diasE, #diasF{
+
+#valorTotal,
+#horas,
+#diasE,
+#diasF {
     border-radius: 7px;
     margin-inline: 10px;
-    font-family: Maven Pro; 
-    background-color:white;
-    
+    font-family: Maven Pro;
+    background-color: white;
 }
 
-
-#button{
+#button {
     border-radius: 10px;
     width: 120px;
     margin-bottom: 10px;
-    background-color:white;
+    background-color: white;
     color: black;
     border: 1px solid black;
 }
-#row2{
+
+#row2 {
     display: inline-flex;
     padding-bottom: 3%;
-    background-color:white;
+    background-color: white;
 }
-i{
+
+i {
     margin-top: 20px;
     text-align: center;
     font-size: 1.6em;
@@ -58,11 +61,11 @@ i{
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color:white;
+    background-color: white;
     color: black;
-    
 }
-#resultado{
+
+#resultado {
     position: relative;
     z-index: 1;
     display: flex;
@@ -73,47 +76,51 @@ i{
     margin-right: auto;
     margin-left: auto;
     width: 900px;
-    background-color:white;
+    background-color: white;
     color: grey;
     border-style: solid;
     margin-top: 10px;
     display: none;
+}
 
-}
-#result{
-    background-color:white;
-}
-#navi{
+#result {
     background-color: white;
 }
 
-img,a,nav{
+#navi {
+    background-color: white;
+}
+
+img,
+a,
+nav {
     background-color: white;
     display: flex;
     align-items: center;
 }
-nav{
-    
+
+nav {
     align-content: center;
     height: auto;
     justify-content: start;
     margin-top: 0px;
     border-bottom: 1px solid black;
 }
-a{
-   text-decoration: none;
-   margin-left: 30px;
-    
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
 }
-img{
+
+img {
     margin-left: 480px;
 }
-#links{
-    margin-inline:25%;
+
+#links {
+    margin-inline: 25%;
     background-color: white;
     display: inline-flex;
 }
-
 
 #textAbout {
     position: relative;
@@ -126,18 +133,21 @@ img{
     margin-right: auto;
     margin-left: auto;
     width: 900px;
-    background-color:white;
+    background-color: white;
     color: grey;
     border-style: solid;
     margin-top: 10px;
-
 }
 
-ol, li, p,h2{
+ol,
+li,
+p,
+h2 {
     background-color: white;
 }
-li,h2{
-    font-weight:bold ;
+
+li,
+h2 {
+    font-weight: bold;
     color: black;
 }
-
