@@ -20,6 +20,7 @@
     color: grey;
     border-style: solid;
     margin-top: 20px;
+   
     
 }
 #row1{
@@ -41,7 +42,8 @@
     width: 120px;
     margin-bottom: 10px;
     background-color:white;
-    color: grey;
+    color: black;
+    border: 1px solid black;
 }
 #row2{
     display: inline-flex;
@@ -75,6 +77,7 @@ i{
     color: grey;
     border-style: solid;
     margin-top: 10px;
+    display: none;
 
 }
 #result{
@@ -95,28 +98,22 @@ nav{
     height: auto;
     justify-content: start;
     margin-top: 0px;
+    border-bottom: 1px solid black;
 }
 a{
    text-decoration: none;
-   margin-left: 50px;
+   margin-left: 30px;
     
 }
 img{
-    margin-left: 150px;
+    margin-left: 480px;
 }
 #links{
-    margin-inline: 20%;
+    margin-inline:25%;
     background-color: white;
     display: inline-flex;
 }
 
-#main{
-    display: block;
-}
-
-#sobre{
-    display: none;
-}
 
 #textAbout {
     position: relative;
@@ -143,3 +140,4 @@ li,h2{
     font-weight:bold ;
     color: black;
 }
+

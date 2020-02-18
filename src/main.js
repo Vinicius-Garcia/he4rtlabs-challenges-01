@@ -6,6 +6,14 @@ function calculate(){
     var horas = document.getElementById("horas").value
     var diasE = document.getElementById("diasE").value
     var diasF = document.getElementById("diasF").value
+    var x = document.getElementById("resultado");
+
+    
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "block";
+    }
     
     
 
@@ -21,28 +29,4 @@ function calculate(){
 
 
 }
-function main(){
-    var stateMain = document.getElementById("main")
-    var stateSobre = document.getElementById("sobre")
 
-    if (stateMain.style.display === "none") {
-        stateMain.style.display = "block";
-    }
-    if(stateSobre.style.display === "block"){
-        stateSobre.style.display = "none"
-    } 
-
-}
-
-function sobre(){
-    var stateMain = document.getElementById("main")
-    var stateSobre = document.getElementById("sobre")
-
-    if (stateSobre.style.display === "none") {
-        stateSobre.style.display = "block";
-    }
-    if(stateMain.style.display === "block"){
-        stateMain.style.display = "none"
-    } 
-
-}
